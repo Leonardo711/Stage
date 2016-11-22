@@ -2,8 +2,15 @@
 {% block title %} 发表文章 {% endblock %}
 {% block content %}
 
+{% for year in yearList %}
 <div style="padding-top:20px;padding-left:20px;padding-bottom:20px;">
-	<p><span>1</span><strong>&nbsp;&nbsp;&nbsp;<a href="#">标题</a></strong></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作者. 发布年份</p>
-</div>
+    <p>{{year}}</p>
+        {% for article in articleList %}
+            {% if article.pub_time.year == year %}
+	<p><span>{{ forloop.counter }}</span><strong>&nbsp;&nbsp;&nbsp;<a href="{{article.href}}">{{article.title}}</a></strong>
+        </br>{{article.author}}</p>
+            {% endif %}
+        {% endfor %}
+{% endfor %}
 
 {% endblock %}

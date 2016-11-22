@@ -4,5 +4,6 @@ from news.views import *
 
 urlpatterns = [
     url(r'^$', newsList.as_view(), name="news_list"),
-    url(r'^detail/(?P<id>[\d]+)', newsDetail.as_view(), name="news_detail")
+    url(r'^detail/(?P<id>[\d]+)', newsDetail.as_view(), name="news_detail"),
+    url(r'^add/',newsAdd.as_view(), name ="news_add"),
 ]

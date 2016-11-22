@@ -17,9 +17,14 @@
     <div class="jumbotron">
       <div class="container">
         <div class='login'>
-          <a href="#">login</a>
+          {% if user.is_authenticated %}
+            <p>{{ user }}</p>
+            <p><a href="/accounts/logout">退出</a></p>
+          {% else %}
+          <a href="/accounts/login">登录</a>
           <span>/</span>
-          <a href="#">regist</a>
+          <a href="/accounts/signup">注册</a>
+          {% endif %}
         </div>
       	<div class="col-md-2 logo">
           <img src="/static/pics/logo.jpg" height="130">

@@ -3,7 +3,7 @@ from django.views.generic import ListView, DetailView
 from django.views.generic.edit import CreateView
 from news.models import *
 from news.forms import NewsForm
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import PermissionRequiredMixin
 
 # Create your views here.
 class newsList(ListView):
@@ -22,19 +22,23 @@ class newsDetail(DetailView):
         self.object.viewed()
         return self.render_to_response(self.get_context_data(news=news))
 
-class newsAdd(LoginRequiredMixin, CreateView):
+class newsAdd(PermissionRequiredMixin, CreateView):
+    permission_required = 'news.add_news'
     model = News
     template_name = "news/newsAdd.html"
     form_class = NewsForm
 
     def get(self, request, *args, **kwargs):
-        form_class = self.get_form_class()
-        form = self.get_form(form_class)
+        self.object=None
+        form = self.form_class()
         return self.render_to_response(self.get_context_data(form=form))
 
     def post(self, request, *args, **kwargs):
         form_class = self.get_form_class()
         form = self.get_form(form_class)
         if form.is_valid():
-            form.save()
+            news = form.save(commit=False)
+            news.author = request.user
+            news.save()
+
 

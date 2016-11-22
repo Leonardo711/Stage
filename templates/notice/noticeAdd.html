@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="" method="post"> {% csrf_token %}
+    <p>标题</p>
+    <div>{{ form.title }}</div>
+    <p>内容</p>
+    <div>
+        {{ form.content }}
+    </div>
+
+</form>
+{% endblock %}
+

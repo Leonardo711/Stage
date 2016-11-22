@@ -38,68 +38,44 @@
         <div class="col-sm-10 col-sm-offset-1">
           <div class="panel panel-success">
             <div class="more-news">
-              <a href="http://news2.sysu.edu.cn/">More >></a>
+              <a href="/news">More >></a>
             </div>
             <div class="panel-heading">
-              <h3 class="panel-title">项目进展</h3>
+              <h3 class="panel-title">新闻动态</h3>
             </div>
-            <div class="panel-body">    
+            <div class="panel-body">
             <ul class="news-ul">
-                <li>                      
-                  <span class="news-date">16-08-07</span>
+                {% for news in newsSet %}
+                <li>
+                  <span class="news-date">{{ news.pub_time|date:"y-m-d"}}</span>
                   <div class="news-title">
-                    <a href="http://news2.sysu.edu.cn/news01/147148.htm">
-                    <nobr>附属三院高志良教授团队发表乙肝治愈标志物研究新成果</nobr></a>
+                    <a href="/news/detail/{{ news.id }}">
+                    <nobr>{{ news.title }}</nobr></a>
                   </div>
                 </li>
-                <li>                    
-                  <span class="news-date">16-08-03</span>
-                  <div class="news-title">
-                    <a href="http://news2.sysu.edu.cn/news03/147153.htm">
-                    <nobr>广东21家医院组建医疗联盟</nobr></a>
-                  </div>
-                </li>
-                <li>                    
-                  <span class="news-date">16-07-25</span>
-                  <div class="news-title">
-                    <a href="http://news2.sysu.edu.cn/news03/147149.htm">
-                    <nobr>广州研究团队历经六年，发现鼻咽癌易感基因位点“家族”的两个新成员</nobr></a>
-                  </div>
-                </li>
+                {% endfor %}
               </ul>
             </div>   <!-- /.panel-body -->
           </div><!-- /.panel-success -->
 
           <div class="panel panel-danger">
             <div class="more-notifications">
-              <a href="http://www.sysu.edu.cn/2012/en/announcements/index.htm">More >></a>
+              <a href="/notice">More >></a>
             </div>
             <div class="panel-heading">
-              <h3 class="panel-title">发表文章</h3>
+              <h3 class="panel-title">通知公告</h3>
             </div>
             <div class="panel-body">
               <ul class="notification-ul">
+                  {% for notice in noticeSet %}
                 <li>                      
-                  <span class="notification-date">16-08-05</span>
+                  <span class="notification-date">{{notice.pub_time|date:"y-m-d"}}</span>
                   <div class="notification-title">
-                    <a href="https://www.baidu.com/">
-                    <nobr>项目启动会将于2016年8月13-14日在中山大学南校区举办</nobr></a>
+                    <a href="/notice/detail/{{notice.id}}">
+                    <nobr>{{notice.title}}</nobr></a>
                   </div>
                 </li>
-                <li>                    
-                  <span class="notification-date">16-08-02</span>
-                  <div class="notification-title">
-                    <a href="https://oa.sysu.edu.cn/oa/info/sysu/00000000560786d50156455a4c861f57/index">
-                    <nobr>关于做好防台风防汛工作的通知</nobr></a>
-                  </div>
-                </li>
-                <li>                    
-                  <span class="notification-date">16-07-08</span>
-                  <div class="notification-title">
-                    <a href="http://life.fudan.edu.cn/Data/View/2409">
-                    <nobr>关于进一步规范租赁人员薪酬发放的通知</nobr></a>
-                  </div>
-                </li>
+                  {% endfor %}
               </ul>
             </div><!-- /.panel-body -->
           </div><!-- /.panel-danger -->
@@ -109,16 +85,16 @@
           </div>
           <div class="row">
             <div class="col-sm-3 coop1">
-              <img src="pics/cooperators_logo/1.gif" title="中山大学" height="112">
+              <img src="/static/pics/cooperators_logo/1.gif" title="中山大学" height="112">
             </div>
             <div class="col-sm-3 coop2">
-              <img src="pics/cooperators_logo/2.jpg" title="中国疾病预防控制中心" height="102">
+              <img src="/static/pics/cooperators_logo/2.jpg" title="中国疾病预防控制中心" height="102">
             </div>
             <div class="col-sm-3 coop3">
-              <img src="pics/cooperators_logo/3.png" title="复旦大学" height="92">
+              <img src="/static/pics/cooperators_logo/3.png" title="复旦大学" height="92">
             </div>
             <div class="col-sm-3 coop4">
-              <img src="pics/cooperators_logo/4.jpg" title="南方医科大学" height="110">
+              <img src="/static/pics/cooperators_logo/4.jpg" title="南方医科大学" height="110">
             </div>
           </div>              
 

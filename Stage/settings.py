@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'bootstrap_admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'news',
     'team',
     'notice',
+    'article',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -130,3 +132,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
         os.path.join(BASE_DIR, "static"),
         )
+LOGIN_REDIRECT_URL='/'

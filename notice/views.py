@@ -28,13 +28,12 @@ class noticeAdd(LoginRequiredMixin, CreateView):
     form_class = NoticeForm
 
     def get(self, request, *args, **kwargs):
-        form_class = self.get_form_class()
-        form = self.get_form(form_class)
+        self.object = None
+        form = self.form_class()
         return self.render_to_response(self.get_context_data(form=form))
 
     def post(self, request, *args, **kwargs):
-        form_class = self.get_form_class()
-        form = self.get_form(form_class)
+        self.object = None
+        form = self.get_form(self.form_class)
         if form.is_valid():
             form.save()
-# Create your views here.

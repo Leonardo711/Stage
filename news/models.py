@@ -19,11 +19,6 @@ class News(models.Model):
     class Meta:
         ordering = ['-pub_time']
         verbose_name= "新闻"
-        permissions = (
-            ("add_news", "Can add news"),
-            ("delete_news", "can delete news"),
-            ("edit_news", "can modify news"),
-        )
 
     def get_absolute_url(self):
         return reverse("news:news_detail", kwargs={'pk':self.id})

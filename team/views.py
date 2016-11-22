@@ -4,11 +4,6 @@ from django.views.generic.edit import CreateView, DeleteView
 from team.models import *
 
 # Create your views here.
-class memberList(ListView):
-    model = Member
-    template_name = ""
-
-class memberDetail(DetailView):
-    model = Member
-    template_name= ""
+def teamListView(request):
+    return render(request, template_name="team/teamBase.html")
 
