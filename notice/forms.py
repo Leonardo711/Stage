@@ -2,9 +2,9 @@ from django import forms
 from notice.models import Notice
 
 
-class NoticeForm(forms.Form):
+class NoticeForm(forms.ModelForm):
     class Meta:
         model =  Notice
-        field = ('title', 'content')
+        fields = ('title', 'content')
         widgets = {'title': forms.TextInput(),
-                   "content":forms.TextInput()}
+                   "content":forms.Textarea()}
