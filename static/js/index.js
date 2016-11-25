@@ -16,9 +16,9 @@ $(function(){
         event.preventDefault();
         var data_id = $(this).attr('data-id')
         console.log(data_id)
-        url = '/' + pageContent + 'GetContent'
+        url = '/' + 'getContent'
         console.log(url)
-        $.get(url, {'data_id': data_id}, function(ret){
+        $.get(url, {'data_id': data_id, 'page': pageContent}, function(ret){
             $("#content").html(ret)
         })
     })
