@@ -18,7 +18,7 @@ $(function(){
         event.preventDefault();
         var data_id = $(this).attr('data-id')
         // console.log(data_id)
-        url = '/' + 'getContent'
+        var url = '/' + 'getContent'
         // console.log(url)
         $.get(url, {'data_id': data_id, 'page': pageContent}, function(ret){
             console.log(ret)
@@ -37,7 +37,16 @@ $(function(){
         sessionStorage.setItem('data_id', progressDataId)
     })
 
-
+    $(".language").click(function(event){
+        event.preventDefault();
+        var language = this.id
+        var url = '/' + 'language'
+        console.log(language)
+        console.log(url)
+        $.get(url, {'language': language, 'page': pageContent}, function(ret){
+            console.log(ret)
+        })
+    })
 
 	// $("#login_form").validate({  
  //        rules: {  

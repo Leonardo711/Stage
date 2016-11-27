@@ -18,15 +18,23 @@
   <body>
     <div class="jumbotron">
       <div class="container">
-        <div class='login'>
-          {% if user.is_authenticated %}
-            <p>{{ user }}</p>
-            <p><a href="/accounts/logout">退出</a></p>
-          {% else %}
-          <a href="/accounts/login">登录</a>
-          <span>/</span>
-          <a href="/accounts/signup">注册</a>
-          {% endif %}
+        <div class='right-up'>
+          <div>            
+            {% if user.is_authenticated %}
+              <p style="font-size: 14px;display: inline;">{{ user }}</p>
+              <span>/</span>
+              <a href="/accounts/logout">退出</a>
+            {% else %}
+            <a href="/accounts/login">登录</a>
+            <span>/</span>
+            <a href="/accounts/signup">注册</a>
+            {% endif %}
+          </div>
+          <div>
+            <a href="#" class="language" id="chinese">中文</a>
+            <span>/</span>
+            <a href="#" class="language" id="english">English</a>
+          </div>
         </div>
       	<div class="col-md-2 logo">
           <img src="/static/pics/logo.jpg" height="130">
