@@ -12,17 +12,32 @@ $(function(){
 			$(this).addClass("active");
 	})
 
+    var progressDataId = ''
+
     $(".get").click(function(event){
         event.preventDefault();
         var data_id = $(this).attr('data-id')
-        console.log(data_id)
+        // console.log(data_id)
         url = '/' + 'getContent'
-        console.log(url)
+        // console.log(url)
         $.get(url, {'data_id': data_id, 'page': pageContent}, function(ret){
             console.log(ret)
-            $("#content").html(ret)
+            if(pageContent == 'project'){
+                ret = JSON.parse(ret)
+                // console.log(ret.basicInformation)
+                progressDataId = ret.data_id
+                $("#content").html(ret.basicInformation)
+            } else {
+                $("#content").html(ret)
+            }
         })
     })
+
+    $("#to-progress").click(function(){
+        sessionStorage.setItem('data_id', progressDataId)
+    })
+
+
 
 	// $("#login_form").validate({  
  //        rules: {  
