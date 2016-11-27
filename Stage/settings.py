@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'notice',
     'article',
     'project',
+    'progress',
+    'academic',
+    'tools',
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -1,6 +1,7 @@
 from django.contrib import admin
-from article.models import *
+from news.models import *
 
 # Register your models here.
 
-admin.site.register(article_publish)
+admin.site.register(News)
+

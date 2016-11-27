@@ -2,5 +2,5 @@ from django.conf.urls import url, include
 from academic.views import *
 
 urlpatterns = [
-    url(r'^$', testView, name="academicView"),
+    url(r'^$', academicList.as_view(), name="academicView"),
 ]
