@@ -1,6 +1,8 @@
 from django.shortcuts import render
-from news.models import News
+from news.models import *
+from team.models import *
 from notice.models import Notice
+from django.http import HttpResponse
 
 def index(request):
     newsSet = News.objects.all()
@@ -13,3 +15,9 @@ def index(request):
         noticeSet = noticeSet[:2]
     context['noticeSet'] = noticeSet
     return render(request, "index.html", context)
+
+def getContent(request):
+    if request.GET['page'] == 'team':
+        member = Member.objects.get(name=request.GET['data_id'])
+        response = member.profile
+        return HttpResponse(response)

@@ -4,5 +4,6 @@ from team.views import *
 
 
 urlpatterns = [
-    url(r'^$', teamListView, name="member_list"),
+    url(r'^$', teamView.as_view(), name="member_list"),
+    url(r'^add', memberAdd.as_view(), name="member_add"),
 ]

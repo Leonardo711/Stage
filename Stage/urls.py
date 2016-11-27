@@ -20,6 +20,7 @@ from views import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^getContent', getContent),
     url(r'^$',index),
     url(r'^news/', include('news.urls')),
     url(r'^team/', include('team.urls')),

@@ -9,5 +9,8 @@ class Member(models.Model):
     priority = models.IntegerField() # main Team or not
     profile = models.TextField()
 
+    def __unicode__(self):
+        return self.name
+
     class Meta:
         ordering=['-priority']

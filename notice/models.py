@@ -19,6 +19,7 @@ class Notice(models.Model):
     class Meta:
         ordering = ['-pub_time']
         verbose_name= "通知"
+        verbose_name_plural = "通知"
 
     def get_absolute_url(self):
         return reverse("notice:notice_detail", kwargs={'pk':self.id})

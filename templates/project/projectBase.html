@@ -6,12 +6,12 @@
 	<div class="col-lg-3 col-md-3 col-xs-3 col-sm-3 sidebar-offcanvas" id="sidebar" style="padding-top:20px">
 	  <div id="list" class="list-group-item">
 	    <ul class="nav nav-pills nav-stacked">
-	      <li><h3>蚊媒</h3></li>
-	      <li><a href="#">白纹伊蚊</a></li>
-	      <li><a href="#">埃及伊蚊</a></li>
-	      <li><h3>病原体</h3></li>
-	      <li><a href="#">锥虫</a></li>
-	      <li><a href="#">血吸虫</a></li>
+			{% for category, projects in projectDict.items %}
+            <li><h3>{{category}}</h3></li>
+                {% for project in projects %}
+                    <li><a href="" class="get" data-id="{{project.name}}">{{project.name}}</a></li>
+                {% endfor %}
+            {% endfor %}
 	    </ul>
 	  </div>
 	</div>

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="" method="post"> {% csrf_token %}
+    <p>姓名</p>
+    <div>{{ form.name }}</div>
+    <p>团队名</p>
+    <div>
+        {{ form.teamName }}
+    </div>
+    <p>是否主团队</p>
+    <div>
+        {{ form.priority }}
+    </div>
+    <p>个人资料</p>
+    <div>
+        {{ form.profile }}
+    </div>
+
+</form>
+{% endblock %}

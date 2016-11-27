@@ -19,6 +19,7 @@ $(function(){
         url = '/' + 'getContent'
         console.log(url)
         $.get(url, {'data_id': data_id, 'page': pageContent}, function(ret){
+            console.log(ret)
             $("#content").html(ret)
         })
     })

@@ -3,7 +3,7 @@ from django.views.generic import ListView, DetailView
 from django.views.generic.edit import CreateView
 from notice.models import *
 from notice.forms import NoticeForm
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import PermissionRequiredMixin
 
 # Create your views here.
 class noticeList(ListView):
@@ -22,7 +22,8 @@ class noticeDetail(DetailView):
         self.object.viewed()
         return self.render_to_response(self.get_context_data(notice=notice))
 
-class noticeAdd(LoginRequiredMixin, CreateView):
+class noticeAdd(PermissionRequiredMixin, CreateView):
+    permission_required = 'notice.add_notice'
     model = Notice
     template_name = "notice/noticeAdd.html"
     form_class = NoticeForm

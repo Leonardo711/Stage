@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'team',
     'notice',
     'article',
+    'project',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -53,6 +54,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    #'django.core.context_processors.i18n',
 ]
 
 ROOT_URLCONF = 'Stage.urls'
@@ -113,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
 TIME_ZONE = 'UTC'
 

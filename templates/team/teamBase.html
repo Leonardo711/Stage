@@ -1,29 +1,29 @@
 {% extends "base.html" %}
 {% block title %} 研究团队 {% endblock %}
 {% block content %}
+{% if perms.team.add_member %}
+<a href="/team/add">+</a>
+{% endif %}
     <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3 sidebar-offcanvas" id="sidebar" style="padding-top:20px">
           <div id="list" class="list-group-item">
             <ul class="nav nav-pills nav-stacked">
               <li><h3>主要负责团队</h3></li>
-              <li><a href="#">吴忠道</a></li>
-              <li><a href="#">肖宁</a></li>
-              <li><a href="#">胡薇</a></li>
-              <li><a href="#">陈晓光</a></li>
+              {% for member in mainMember %}
+                <li><a href="" class="get" data-id="{{member.name}}">{{member.name}}</a></li>
               <li><h3>参与团队</h3></li>
-              <li><h4>团队A</h4></li>
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><h4>团队B</h4></li>
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
+              {% endfor %}
+                {% for teamName, memberSet in memberDict.items %}
+              <li><h4>{{ teamName }}</h4></li>
+                    {% for member in memberSet %}
+                      <li><a href="" class="get" data-id="{{member.name}}">{{ member.name }}</a></li>
+                    {% endfor %}
+                {% endfor %}
             </ul>
           </div>
         </div>
         
-        <div class="col-lg-9 col-md-9 col-xs-9 col-sm-9 sidebar-offcanvas" id="sidebar" style="padding-top:20px">
+        <div class="col-lg-9 col-md-9 col-xs-9 col-sm-9 sidebar-offcanvas" id="content" style="padding-top:20px">
           <p>
             “保障人类健康”是我国生物安全优先考虑的战略重点之一。医学媒介生物及其相关病原体的入侵可引起如登革热、寨卡病毒病、疟疾、锥虫病、血吸虫病、广州管圆线虫病等重要热带病的流行、疫情暴发与扩散，甚至成为重大公共卫生安全事件，对人类健康和社会稳定构成极大威胁。
             本项目拟以入侵螺类（福寿螺和褐云玛瑙螺、藁杆双脐螺）、入侵伊蚊（埃及伊蚊和白纹伊蚊）、输入性病原体（疟原虫、锥虫和血吸虫）等为研究对象，开展它们的入侵与疾病传病相关的生物学特性研究，为建立媒介生物及其病原体入侵、扩散和传播的快速侦查、风险评估及预警处置体系提供科学依据和技术支撑，以推动我国生物安全科技支撑能力建设。
