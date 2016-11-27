@@ -6,7 +6,7 @@ from project.models import Project
 # Create your models here.
 class article_publish(models.Model):
     title = models.CharField(max_length=200)
-    href = models.CharField(max_length=200)
+    href = models.CharField(max_length=2000)
     author = models.CharField(max_length = 200)
     pub_time = models.DateField()
     project = models.ForeignKey(Project)
