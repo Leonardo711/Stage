@@ -1,5 +1,5 @@
 from django.contrib import admin
-from progress.models import progress
+from progress.models import Progress
 # Register your models here.
-admin.site.register(progress)
+admin.site.register(Progress)
 

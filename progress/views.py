@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from project.models import Project
-from progress.models import progress
+from progress.models import Progress
 from collections import OrderedDict
 
 # Create your views here.

@@ -3,6 +3,7 @@ from news.models import *
 from team.models import *
 from notice.models import Notice
 from project.models import *
+from progress.models import Progress
 from django.http import HttpResponse
 import simplejson
 
@@ -31,4 +32,8 @@ def getContent(request):
         outdict['data_id'] = request.GET["data_id"]
         json = simplejson.dumps(outdict)
         return HttpResponse(json)
+    elif request.GET['page'] == 'progress':
+        project = Project.objects.get(name=request.GET["data_id"])
+        progress = Progress.objects.get(project=project)
+        return HttpResponse(progress.content)
 
