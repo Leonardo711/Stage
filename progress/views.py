@@ -16,7 +16,4 @@ class progressListView(TemplateView):
             for project in projectSet:
                 projects = projectDict.setdefault(project.category, [])
                 projects.append(project)
-            firstCat = projectSet.keys()[0]
-            first = projectSet[firstCat][0]
-            content = progress.objects.get(project=first)
-            return self.render_to_response(self.get_context_data(projectDict=projectDict, content=content))
+            return self.render_to_response(self.get_context_data(projectDict=projectDict))

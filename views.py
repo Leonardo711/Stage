@@ -32,4 +32,3 @@ def getContent(request):
         json = simplejson.dumps(outdict)
         return HttpResponse(json)
 
-        return HttpResponse("hello world")

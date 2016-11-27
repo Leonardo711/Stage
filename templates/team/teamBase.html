@@ -11,8 +11,8 @@
               <li><h3>主要负责团队</h3></li>
               {% for member in mainMember %}
                 <li><a href="" class="get" data-id="{{member.name}}">{{member.name}}</a></li>
-              <li><h3>参与团队</h3></li>
               {% endfor %}
+              <li><h3>参与团队</h3></li>
                 {% for teamName, memberSet in memberDict.items %}
               <li><h4>{{ teamName }}</h4></li>
                     {% for member in memberSet %}
