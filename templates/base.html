@@ -18,8 +18,7 @@
   <body>
     <div class="jumbotron">
       <div class="container">
-        <div class='right-up'>
-          <div>            
+        <div class='right-up'>           
             {% if user.is_authenticated %}
               <p style="font-size: 14px;display: inline;">{{ user }}</p>
               <span>/</span>
@@ -29,12 +28,10 @@
             <span>/</span>
             <a href="/accounts/signup">注册</a>
             {% endif %}
-          </div>
-          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#" class="language" id="chinese">中文</a>
             <span>/</span>
             <a href="#" class="language" id="english">English</a>
-          </div>
         </div>
       	<div class="col-md-2 logo">
           <img src="/static/pics/logo.jpg" height="130">
