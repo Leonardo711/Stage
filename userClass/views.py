@@ -12,6 +12,7 @@ from itsdangerous import TimestampSigner
 import base64
 
 from django.conf import settings as django_settings
+from django.utils.translation import ugettext as _
 
 class Token:
     def __init__(self, security_key):
@@ -66,9 +67,9 @@ class signup(TemplateView):
             user.is_active = False
             user.save()
             token = token_confirm.generate_validate_token(username)
-            message = "\n".join([u'欢迎注册lyl火车票预订系统', u'请访问该链接，完成邮箱验证:',
+            message = "\n".join([_(u'welcome to register our stage '), _(u'please check your email to accomplish the registeration'),
                                  "http://"+'/'.join([django_settings.DOMAIN, 'accounts','activate', token])])
-            send_mail(u'注册用户验证信息', message,django_settings.EMAIL_HOST_USER, [email])
+            send_mail(_(u'registration information'), message,django_settings.EMAIL_HOST_USER, [email])
             user.groups.add(Group.objects.get(name="registedUser"))
             return render(request, "userClass/signUpSuccess.html")
 
@@ -81,12 +82,12 @@ def active_user(request, token):
         users = User.objects.filter(username=username)
         for user in users:
             user.delete()
-        return HttpResponse("对不起，验证链接已过期，请重新注册")
+        return HttpResponse(_("sorry, the link is out-of-date"))
     try:
         user = User.objects.get(username=username)
     except User.DoesNotExist:
-        return HttpResponse("对不起，您所验证的用户不存在，请重新注册")
+        return HttpResponse(_("sorry, the user does not exist"))
     user.is_active = True
     user.save()
-    return HttpResponse("验证完成")
+    return HttpResponse(_("Validation success"))
 

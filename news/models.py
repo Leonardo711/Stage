@@ -6,21 +6,23 @@ from django.conf import settings
 from django.core.urlresolvers import reverse
 from ckeditor.fields import RichTextField
 from ckeditor_uploader.fields import RichTextUploadingField
+from django.utils.translation import ugettext as _
 
 # Create your models here.
 class News(models.Model):
-    title = models.CharField('标题',max_length = 100)
-    pub_time = models.DateTimeField('创建时间', auto_now_add=True)
-    content = RichTextUploadingField('正文')
-    views = models.IntegerField(default=0)
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, verbose_name="作者", on_delete=models.CASCADE)
+    title = models.CharField(_('news title'),max_length = 100)
+    pub_time = models.DateTimeField(_('publish time'), auto_now_add=True)
+    content = RichTextUploadingField(_('news content'))
+    views = models.IntegerField(_('viewed'), default=0)
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, verbose_name=_("news author"), on_delete=models.CASCADE)
 
     def __unicode__(self):
         return self.title
 
     class Meta:
         ordering = ['-pub_time']
-        verbose_name= "新闻"
+        verbose_name= _("news")
+        verbose_name_plural = _("news")
 
     def get_absolute_url(self):
         return reverse("news:news_detail", kwargs={'pk':self.id})

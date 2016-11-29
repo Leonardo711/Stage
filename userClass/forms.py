@@ -1,11 +1,11 @@
-#-*-coding:utf-8-*-
+#-*- coding:utf-8 -*-
 from django import forms
 from django.contrib.auth.models import User
 
 class SignUpForm(forms.Form):
-    username = forms.EmailField(label="邮箱")
-    password = forms.CharField(label = "密码", widget=forms.PasswordInput)
-    passwordagain = forms.CharField(label = "确认密码", widget=forms.PasswordInput)
+    username = forms.EmailField(label="email")
+    password = forms.CharField(label = "password", widget=forms.PasswordInput)
+    passwordagain = forms.CharField(label = "confirmation", widget=forms.PasswordInput)
 
     def clean_password2(self):
         password1 = self.cleaned_data.get('password')
@@ -14,7 +14,7 @@ class SignUpForm(forms.Form):
             raise forms.ValidationError("Passwords don't match")
 
 class SignInForm(forms.Form):
-    username = forms.EmailField(label="邮箱")
-    password = forms.CharField(label="密码", widget=forms.PasswordInput)
+    username = forms.EmailField(label="email")
+    password = forms.CharField(label="password", widget=forms.PasswordInput)
 
 

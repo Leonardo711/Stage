@@ -6,6 +6,8 @@ from project.models import *
 from progress.models import Progress
 from django.http import HttpResponse, HttpResponseRedirect
 import simplejson
+from django.utils import translation
+
 
 def index(request):
     newsSet = News.objects.all()
@@ -39,5 +41,11 @@ def getContent(request):
 
 def language(request):
     print request.GET
+    if request.GET['language'] == "chinese":
+        user_language = "zh"
+    else:
+        user_language = "en"
+    translation.activate(user_language)
+    request.session[translation.LANGUAGE_SESSION_KEY] = user_language
     return HttpResponseRedirect("/news/")
 

@@ -1,3 +1,4 @@
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
@@ -22,7 +23,7 @@
             {% if user.is_authenticated %}
               <p style="font-size: 14px;display: inline;">{{ user }}</p>
               <span>/</span>
-              <a href="/accounts/logout">退出</a>
+              <a href="/accounts/logout">{% trans "Exit" %}</a>
             {% else %}
             <a href="/accounts/login">登录</a>
             <span>/</span>
