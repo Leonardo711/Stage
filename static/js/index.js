@@ -37,17 +37,8 @@ $(function(){
         sessionStorage.setItem('data_id', progressDataId)
     })
 
-    $(".language").click(function(event){
-        event.preventDefault();
-        var language = this.id
-        var url = '/' + 'language'
-        console.log(language)
-        console.log(url)
-        $.get(url, {'language': language, 'page': pageContent}, function(ret){
-            console.log(ret)
-        })
-    })
-
+    $("#english").attr('href', "/language?language=english&page=" + pageContent)
+    $("#chinese").attr('href', "/language?language=chinese&page=" + pageContent)
 	// $("#login_form").validate({  
  //        rules: {  
  //            username: "required",  
