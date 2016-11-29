@@ -4,6 +4,8 @@ from django.views.generic.edit import CreateView
 from news.models import *
 from news.forms import NewsForm
 from django.contrib.auth.mixins import PermissionRequiredMixin
+from django.http import HttpResponseRedirect
+from django.shortcuts import redirect
 
 # Create your views here.
 class newsList(ListView):
@@ -40,5 +42,6 @@ class newsAdd(PermissionRequiredMixin, CreateView):
             news = form.save(commit=False)
             news.author = request.user
             news.save()
+        return HttpResponseRedirect("/news")
 
 

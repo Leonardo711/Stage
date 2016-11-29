@@ -17,19 +17,23 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from views import *
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^getContent', getContent),
     url(r'^$',index),
+    url(r'^language/', language),
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
     url(r'^news/', include('news.urls')),
     url(r'^team/', include('team.urls')),
     url(r'^notice/', include('notice.urls')),
-    url(r'^accounts/',include('userClass.urls')),
+    url(r'^accounts/', include('userClass.urls')),
     url(r'^project/', include('project.urls')),
-    url(r'^team/',include('team.urls')),
+    url(r'^team/', include('team.urls')),
     url(r'^article/', include('article.urls')),
     url(r'^academic/', include('academic.urls')),
-    url(r'^tools/',include("tools.urls")),
+    url(r'^tools/', include("tools.urls")),
     url(r'^progress/', include("progress.urls")),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

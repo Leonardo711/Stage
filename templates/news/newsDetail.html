@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block title %} 新闻详情 {% endblock %}
 {% block content %}
-<div class="container">
+<div class="container" id="content">
     <p>{{news.title}}</p>
     <p>浏览量：{{news.views}}</p>
     <p>{{news.author.username}}</p>
-    <p>{{news.content}}</p>
+    <p>{{news.content|safe}}</p>
 </div>
 {% endblock %}
 

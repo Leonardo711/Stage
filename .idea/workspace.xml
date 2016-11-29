@@ -2,13 +2,286 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a142ce2-fb6e-43ef-a2ab-429eea88b498" name="Default" comment="kk">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/addimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/alldeletebtnhoverskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/alldeletebtnupskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/deletedisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/deleteenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/listbackground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/rotateleftdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/rotateleftenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/rotaterightdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/rotaterightenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/en/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/zh-cn/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/zh-cn/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/zh-cn/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/zh-cn/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/lang/zh-cn/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/css/ueditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/css/ueditor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/dialogbase.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/button-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/cancelbutton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/charts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/cursor_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/cursor_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/cursor_v.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/cursor_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/dialog-title-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/filescan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/highlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/icons-all.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/loaderror.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/sortable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/sparator_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/table-cell-align.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/tangram-colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/toolbar_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/unhighlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/videologo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/word.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/wordpaste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/themes/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/annotations.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/map.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/highcharts/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/jquery-1.10.2.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/font/vjs.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/font/vjs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/font/vjs.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/font/vjs.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/video-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/video-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/video-js.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/video.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/video-js/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/Uploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.flashonly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.flashonly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.html5only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.html5only.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.withoutimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/xss.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/zeroclipboard/ZeroClipboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/ueditor.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/ueditor.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/ueditor.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/ueditor.parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uedit/ueditor.parse.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/anchor/anchor.html" afterPath="$PROJECT_DIR$/static/dialogs/anchor/anchor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/attachment.css" afterPath="$PROJECT_DIR$/static/dialogs/attachment/attachment.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/attachment.html" afterPath="$PROJECT_DIR$/static/dialogs/attachment/attachment.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/attachment.js" afterPath="$PROJECT_DIR$/static/dialogs/attachment/attachment.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_chm.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_default.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_doc.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_exe.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_mv.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_psd.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_rar.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_txt.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/fileTypeImages/icon_xls.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/alignicon.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/alignicon.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/alignicon.png" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/alignicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/bg.png" afterPath="$PROJECT_DIR$/static/dialogs/video/images/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/file-icons.gif" afterPath="$PROJECT_DIR$/static/dialogs/video/images/file-icons.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/file-icons.png" afterPath="$PROJECT_DIR$/static/dialogs/video/images/file-icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/icons.gif" afterPath="$PROJECT_DIR$/static/dialogs/video/images/icons.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/icons.png" afterPath="$PROJECT_DIR$/static/dialogs/video/images/icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/image.png" afterPath="$PROJECT_DIR$/static/dialogs/video/images/image.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/progress.png" afterPath="$PROJECT_DIR$/static/dialogs/video/images/progress.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/success.gif" afterPath="$PROJECT_DIR$/static/dialogs/video/images/success.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/attachment/images/success.png" afterPath="$PROJECT_DIR$/static/dialogs/video/images/success.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/background/background.css" afterPath="$PROJECT_DIR$/static/dialogs/background/background.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/background/background.html" afterPath="$PROJECT_DIR$/static/dialogs/background/background.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/background/background.js" afterPath="$PROJECT_DIR$/static/dialogs/background/background.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/background/images/bg.png" afterPath="$PROJECT_DIR$/static/dialogs/image/images/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/background/images/success.png" afterPath="$PROJECT_DIR$/static/dialogs/image/images/success.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/chart.config.js" afterPath="$PROJECT_DIR$/static/dialogs/charts/chart.config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/charts.css" afterPath="$PROJECT_DIR$/static/dialogs/charts/charts.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/charts.html" afterPath="$PROJECT_DIR$/static/dialogs/charts/charts.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/charts.js" afterPath="$PROJECT_DIR$/static/dialogs/charts/charts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/images/charts0.png" afterPath="$PROJECT_DIR$/static/dialogs/charts/images/charts0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/images/charts1.png" afterPath="$PROJECT_DIR$/static/dialogs/charts/images/charts1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/images/charts2.png" afterPath="$PROJECT_DIR$/static/dialogs/charts/images/charts2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/images/charts3.png" afterPath="$PROJECT_DIR$/static/dialogs/charts/images/charts3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/images/charts4.png" afterPath="$PROJECT_DIR$/static/dialogs/charts/images/charts4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/charts/images/charts5.png" afterPath="$PROJECT_DIR$/static/dialogs/charts/images/charts5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/emotion.css" afterPath="$PROJECT_DIR$/static/dialogs/emotion/emotion.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/emotion.html" afterPath="$PROJECT_DIR$/static/dialogs/emotion/emotion.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/emotion.js" afterPath="$PROJECT_DIR$/static/dialogs/emotion/emotion.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/0.gif" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/0.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/bface.gif" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/bface.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/cface.gif" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/cface.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/fface.gif" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/fface.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/jxface2.gif" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/jxface2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/tface.gif" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/tface.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/wface.gif" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/wface.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/emotion/images/yface.gif" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/yface.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/gmap/gmap.html" afterPath="$PROJECT_DIR$/static/dialogs/gmap/gmap.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/help/help.css" afterPath="$PROJECT_DIR$/static/dialogs/help/help.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/help/help.html" afterPath="$PROJECT_DIR$/static/dialogs/help/help.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/help/help.js" afterPath="$PROJECT_DIR$/static/dialogs/help/help.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/image.css" afterPath="$PROJECT_DIR$/static/dialogs/image/image.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/image.html" afterPath="$PROJECT_DIR$/static/dialogs/image/image.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/image.js" afterPath="$PROJECT_DIR$/static/dialogs/image/image.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/images/alignicon.jpg" afterPath="$PROJECT_DIR$/static/dialogs/image/images/alignicon.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/images/bg.png" afterPath="$PROJECT_DIR$/static/dialogs/background/images/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/images/icons.gif" afterPath="$PROJECT_DIR$/static/dialogs/image/images/icons.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/images/icons.png" afterPath="$PROJECT_DIR$/static/dialogs/image/images/icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/images/image.png" afterPath="$PROJECT_DIR$/static/dialogs/image/images/image.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/images/progress.png" afterPath="$PROJECT_DIR$/static/dialogs/image/images/progress.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/images/success.gif" afterPath="$PROJECT_DIR$/static/dialogs/image/images/success.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/image/images/success.png" afterPath="$PROJECT_DIR$/static/dialogs/background/images/success.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/insertframe/insertframe.html" afterPath="$PROJECT_DIR$/static/dialogs/insertframe/insertframe.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/internal.js" afterPath="$PROJECT_DIR$/static/dialogs/internal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/link/link.html" afterPath="$PROJECT_DIR$/static/dialogs/link/link.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/map/map.html" afterPath="$PROJECT_DIR$/static/dialogs/map/map.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/map/show.html" afterPath="$PROJECT_DIR$/static/dialogs/map/show.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/music/music.css" afterPath="$PROJECT_DIR$/static/dialogs/music/music.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/music/music.html" afterPath="$PROJECT_DIR$/static/dialogs/music/music.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/music/music.js" afterPath="$PROJECT_DIR$/static/dialogs/music/music.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/preview/preview.html" afterPath="$PROJECT_DIR$/static/dialogs/preview/preview.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/addimg.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/addimg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/brush.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/brush.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/delimg.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/delimg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/delimgH.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/delimgH.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/empty.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/empty.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/emptyH.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/emptyH.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/eraser.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/eraser.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/redo.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/redo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/redoH.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/redoH.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/scale.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/scale.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/scaleH.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/scaleH.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/size.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/size.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/undo.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/undo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/images/undoH.png" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/images/undoH.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/scrawl.css" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/scrawl.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/scrawl.html" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/scrawl.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/scrawl/scrawl.js" afterPath="$PROJECT_DIR$/static/dialogs/scrawl/scrawl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/searchreplace/searchreplace.html" afterPath="$PROJECT_DIR$/static/dialogs/searchreplace/searchreplace.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/searchreplace/searchreplace.js" afterPath="$PROJECT_DIR$/static/dialogs/searchreplace/searchreplace.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/snapscreen/snapscreen.html" afterPath="$PROJECT_DIR$/static/dialogs/snapscreen/snapscreen.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/spechars/spechars.html" afterPath="$PROJECT_DIR$/static/dialogs/spechars/spechars.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/spechars/spechars.js" afterPath="$PROJECT_DIR$/static/dialogs/spechars/spechars.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/table/dragicon.png" afterPath="$PROJECT_DIR$/static/dialogs/table/dragicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/table/edittable.css" afterPath="$PROJECT_DIR$/static/dialogs/table/edittable.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/table/edittable.html" afterPath="$PROJECT_DIR$/static/dialogs/table/edittable.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/table/edittable.js" afterPath="$PROJECT_DIR$/static/dialogs/table/edittable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/table/edittd.html" afterPath="$PROJECT_DIR$/static/dialogs/table/edittd.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/table/edittip.html" afterPath="$PROJECT_DIR$/static/dialogs/table/edittip.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/config.js" afterPath="$PROJECT_DIR$/static/dialogs/template/config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/images/bg.gif" afterPath="$PROJECT_DIR$/static/dialogs/template/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/images/pre0.png" afterPath="$PROJECT_DIR$/static/dialogs/template/images/pre0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/images/pre1.png" afterPath="$PROJECT_DIR$/static/dialogs/template/images/pre1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/images/pre2.png" afterPath="$PROJECT_DIR$/static/dialogs/template/images/pre2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/images/pre3.png" afterPath="$PROJECT_DIR$/static/dialogs/template/images/pre3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/images/pre4.png" afterPath="$PROJECT_DIR$/static/dialogs/template/images/pre4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/template.css" afterPath="$PROJECT_DIR$/static/dialogs/template/template.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/template.html" afterPath="$PROJECT_DIR$/static/dialogs/template/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/template/template.js" afterPath="$PROJECT_DIR$/static/dialogs/template/template.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/bg.png" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/center_focus.jpg" afterPath="$PROJECT_DIR$/static/dialogs/video/images/center_focus.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/file-icons.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/file-icons.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/file-icons.png" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/file-icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/icons.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/icons.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/icons.png" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/image.png" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/image.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/left_focus.jpg" afterPath="$PROJECT_DIR$/static/dialogs/video/images/left_focus.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/none_focus.jpg" afterPath="$PROJECT_DIR$/static/dialogs/video/images/none_focus.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/progress.png" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/progress.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/right_focus.jpg" afterPath="$PROJECT_DIR$/static/dialogs/video/images/right_focus.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/success.gif" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/success.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/images/success.png" afterPath="$PROJECT_DIR$/static/dialogs/attachment/images/success.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/video.css" afterPath="$PROJECT_DIR$/static/dialogs/video/video.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/video.html" afterPath="$PROJECT_DIR$/static/dialogs/video/video.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/video/video.js" afterPath="$PROJECT_DIR$/static/dialogs/video/video.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/webapp/webapp.html" afterPath="$PROJECT_DIR$/static/dialogs/webapp/webapp.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="$PROJECT_DIR$/static/dialogs/wordimage/fClipboard_ueditor.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/wordimage/imageUploader.swf" afterPath="$PROJECT_DIR$/static/dialogs/wordimage/imageUploader.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/wordimage/tangram.js" afterPath="$PROJECT_DIR$/static/dialogs/wordimage/tangram.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/wordimage/wordimage.html" afterPath="$PROJECT_DIR$/static/dialogs/wordimage/wordimage.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/dialogs/wordimage/wordimage.js" afterPath="$PROJECT_DIR$/static/dialogs/wordimage/wordimage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/uedit/themes/default/images/neweditor-tab-bg.png" afterPath="$PROJECT_DIR$/static/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/Stage/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progress/admin.py" afterPath="$PROJECT_DIR$/progress/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progress/models.py" afterPath="$PROJECT_DIR$/progress/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progress/views.py" afterPath="$PROJECT_DIR$/progress/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/progress/progressBase.html" afterPath="$PROJECT_DIR$/templates/progress/progressBase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/team/teamBase.html" afterPath="$PROJECT_DIR$/templates/team/teamBase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stage/settings.py" afterPath="$PROJECT_DIR$/Stage/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stage/urls.py" afterPath="$PROJECT_DIR$/Stage/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academic/models.py" afterPath="$PROJECT_DIR$/academic/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/forms.py" afterPath="$PROJECT_DIR$/news/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/models.py" afterPath="$PROJECT_DIR$/news/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/views.py" afterPath="$PROJECT_DIR$/news/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news/newsAdd.html" afterPath="$PROJECT_DIR$/templates/news/newsAdd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news/newsDetail.html" afterPath="$PROJECT_DIR$/templates/news/newsDetail.html" />
     </list>
     <ignored path="Stage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,108 +301,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progress/models.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stage/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="333">
+              <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+              <folding>
+                <element signature="e#644#685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="e#21#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsAdd.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/news/newsAdd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="e#408#3087#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsDetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/news/newsDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Stage/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/academic/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/team/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="progressBase.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/progress/progressBase.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progress/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progress/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teamBase.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/team/teamBase.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,22 +407,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/userClass/logout.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/userClass/signin.html" />
-        <option value="$PROJECT_DIR$/userClass/urls.py" />
-        <option value="$PROJECT_DIR$/userClass/views.py" />
         <option value="$PROJECT_DIR$/templates/userClass/signInUpBase.html" />
         <option value="$PROJECT_DIR$/news/urls.py" />
         <option value="$PROJECT_DIR$/templates/news/newsList.html" />
-        <option value="$PROJECT_DIR$/news/views.py" />
         <option value="$PROJECT_DIR$/templates/notice/noticeBase.html" />
         <option value="$PROJECT_DIR$/templates/notice/noticeList.html" />
         <option value="$PROJECT_DIR$/notice/urls.py" />
-        <option value="$PROJECT_DIR$/templates/news/newsAdd.html" />
-        <option value="$PROJECT_DIR$/news/forms.py" />
         <option value="$PROJECT_DIR$/notice/forms.py" />
-        <option value="$PROJECT_DIR$/Stage/urls.py" />
         <option value="$PROJECT_DIR$/static/js/index.js" />
         <option value="$PROJECT_DIR$/team/admin.py" />
         <option value="$PROJECT_DIR$/team/models.py" />
@@ -187,7 +435,6 @@
         <option value="$PROJECT_DIR$/academic/views.py" />
         <option value="$PROJECT_DIR$/templates/academic/academicBase.html" />
         <option value="$PROJECT_DIR$/tools/views.py" />
-        <option value="$PROJECT_DIR$/Stage/settings.py" />
         <option value="$PROJECT_DIR$/tools/models.py" />
         <option value="$PROJECT_DIR$/templates/tools/toolsBase.html" />
         <option value="$PROJECT_DIR$/news/admin.py" />
@@ -195,12 +442,22 @@
         <option value="$PROJECT_DIR$/article/admin.py" />
         <option value="$PROJECT_DIR$/tools/admin.py" />
         <option value="$PROJECT_DIR$/article/models.py" />
-        <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/progress/models.py" />
         <option value="$PROJECT_DIR$/progress/admin.py" />
         <option value="$PROJECT_DIR$/progress/views.py" />
         <option value="$PROJECT_DIR$/templates/progress/progressBase.html" />
         <option value="$PROJECT_DIR$/templates/team/teamBase.html" />
+        <option value="$PROJECT_DIR$/news/views.py" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/Stage/ueconfig.json" />
+        <option value="$PROJECT_DIR$/static/ueditor.config.js" />
+        <option value="$PROJECT_DIR$/academic/models.py" />
+        <option value="$PROJECT_DIR$/news/forms.py" />
+        <option value="$PROJECT_DIR$/news/models.py" />
+        <option value="$PROJECT_DIR$/templates/news/newsDetail.html" />
+        <option value="$PROJECT_DIR$/Stage/urls.py" />
+        <option value="$PROJECT_DIR$/templates/news/newsAdd.html" />
+        <option value="$PROJECT_DIR$/Stage/settings.py" />
       </list>
     </option>
   </component>
@@ -254,6 +511,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,20 +541,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -314,7 +559,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
+              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,11 +573,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,67 +587,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="progress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="progress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notice" />
+              <option name="myItemId" value="ck" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -434,72 +619,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="article" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="academic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Stage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lylTicket" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../testSpace/testCKeditor" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="article_article&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/Stage" />
+      <recent name="$PROJECT_DIR$/templates/userClass" />
+      <recent name="$PROJECT_DIR$/templates/news" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/Stage" />
       <recent name="$PROJECT_DIR$/templates/userClass" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates/notice" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/news" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunManager">
@@ -658,14 +803,14 @@
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375" sideWeight="0.49199083" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33898306" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3266564" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375" sideWeight="0.50800914" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -689,130 +834,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notice/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/userClass/signin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userClass/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stage/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1018">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/newsAdd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notice/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/notice/noticeList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notice/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/notice/noticeAdd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/migrations/0002_article_publish_project.py" />
-    <entry file="file://$PROJECT_DIR$/project/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/team/memberAdd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -845,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,16 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/academic/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -892,23 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stage/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -937,9 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,9 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,17 +984,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="45">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,9 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,32 +1026,187 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/progress/progressBase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="405">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/team/teamBase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="211">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/未命名文件夹/uEditor_django/ueEditor_django/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/未命名文件夹/uEditor_django/ueEditor_django/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/未命名文件夹/uEditor_django/ueEditor_django/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage/ueconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/未命名文件夹/uEditor_django/ueEditor_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/未命名文件夹/uEditor_django/ueEditor_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academic/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#21#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news/newsDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/custom_css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+          <folding>
+            <element signature="e#644#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news/newsAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#408#3087#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
           <folding />
         </state>
       </provider>

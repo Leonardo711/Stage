@@ -4,12 +4,14 @@ from __future__ import unicode_literals
 from django.db import models
 from django.conf import settings
 from django.core.urlresolvers import reverse
+from ckeditor.fields import RichTextField
+from ckeditor_uploader.fields import RichTextUploadingField
 
 # Create your models here.
 class News(models.Model):
     title = models.CharField('标题',max_length = 100)
     pub_time = models.DateTimeField('创建时间', auto_now_add=True)
-    content = models.TextField('正文')
+    content = RichTextUploadingField('正文')
     views = models.IntegerField(default=0)
     author = models.ForeignKey(settings.AUTH_USER_MODEL, verbose_name="作者", on_delete=models.CASCADE)
 

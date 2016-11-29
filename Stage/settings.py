@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ckeditor',
+    'ckeditor_uploader',
     'news',
     'team',
     'notice',
@@ -47,6 +49,8 @@ INSTALLED_APPS = [
     'academic',
     'tools',
 ]
+CKEDITOR_JQUERY_URL = '//cdn.bootcss.com/jquery/1.11.3/jquery.min.js'
+CKEDITOR_UPLOAD_PATH = "uploads/"
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -133,8 +137,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-#STATIC_ROOT= '/static/'
+#STATIC_ROOT= os.path.join(BASE_DIR,'static')
+STATIC_ROOT = BASE_DIR + '/static/ck'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
 STATICFILES_DIRS = (
         os.path.join(BASE_DIR, "static"),
         )
+
 LOGIN_REDIRECT_URL='/'
+CKEDITOR_IMAGE_BACKEND = 'pillow'
