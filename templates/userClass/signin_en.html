@@ -1,0 +1,40 @@
+{% extends "base_en.html" %}
+{% block title %} sign in {% endblock %}
+{% block content %}
+<div class="login" style="margin-top:50px;">
+    {% if form.errors %}
+    <p>Your username and password didn't match. Please try again.</p>
+    {% endif %}
+    <div class="web_qr_login container" id="web_qr_login">
+        <div class="web_login" id="web_login">
+            <div class="login-box form row">
+                <div>
+                    <form action="" name="loginform" accept-charset="utf-8" id="login_form" class="center w-240" method="post">
+
+                        {% csrf_token %}
+                        <h3 class="pd-10 w-240">Login</h3>  
+
+                        <input type="hidden" name="to" value="log"/>
+                        <div class="pd-10 w-240">
+                            <label class="input-tips" >email: </label>
+                            <p>{{ form.username }}</p>    
+                        </div>
+                        <div class="pd-10 w-240">
+                            <label class="input-tips">password:</label>
+                            <p>{{ form.password }}</p>    
+                        </div>
+                        <div style="padding-left:50px;margin-top:20px;">
+                            <input type="submit" value="登 录" class="btn btn-default" />
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+

@@ -1,0 +1,36 @@
+{% extends "base_en.html" %}
+{% block title %} Team {% endblock %}
+{% block content %}
+{% if perms.team.add_member %}
+<a href="/team/add">+</a>
+{% endif %}
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3 sidebar-offcanvas" id="sidebar" style="padding-top:20px">
+          <div id="list" class="list-group-item">
+            <ul class="nav nav-pills nav-stacked">
+              <li><h3>Main Team</h3></li>
+              {% for member in mainMember %}
+                <li><a href="" class="get" data-id="{{member.name}}">{{member.name}}</a></li>
+              {% endfor %}
+              <li><h3>Team</h3></li>
+                {% for teamName, memberSet in memberDict.items %}
+              <li><h4>{{ teamName }}</h4></li>
+                    {% for member in memberSet %}
+                      <li><a href="" class="get" data-id="{{member.name}}">{{ member.name }}</a></li>
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+          </div>
+        </div>
+        
+        <div class="col-lg-9 col-md-9 col-xs-9 col-sm-9 sidebar-offcanvas" id="content" style="padding-top:20px">
+          <p>
+              吴忠道，中共党员。现任中山大学中山医学院副院长、寄生虫学教研室主任、蛋白质组学研究实验室副主任、
+              中山大学博士后联谊会理事长和广东省博士后联谊会理事长。1997年毕业于南京医科大学，获得医学博士学
+              位，同年9月入原中山医科大学基础医学博士后流动站工作。1999年6月出站并留校工作，2001年晋升为教授，
+              2002年6月聘任教授，2004年聘任为博士生导师。1992年12月-1993年7月曾在美国哈佛大学公共卫生学院进
+              修热带医学。
+          </p>
+        </div>
+    </div>
+{% endblock %}

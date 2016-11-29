@@ -1,10 +1,7 @@
 $(function(){
 	// nav active
 	var pgurl = window.location.href.split('/')
-    var pageContent = ''
-	if(pgurl.length > 4) {
-		pageContent = pgurl[pgurl.length - 2]
-	}
+    var pageContent = pgurl[3]
 
 	var active = '/' + pageContent
 	$("nav a").each(function(){

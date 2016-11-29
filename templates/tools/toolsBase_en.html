@@ -1,0 +1,23 @@
+{% extends "base_en.html" %}
+{% block title %} Tool {% endblock %}
+{% block content %}
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3 sidebar-offcanvas" id="sidebar" style="padding-top:20px">
+          <div id="list" class="list-group-item">
+            <ul class="nav nav-pills nav-stacked">
+                {% for tool in toolsSet %}
+              <li><a href="#" class="get" data-id="{{ tools.category }}">{{ tool.category }}</a></li>
+                {% endfor %}
+            </ul>
+          </div>
+        </div>
+        
+        <div class="col-lg-9 col-md-9 col-xs-9 col-sm-9 sidebar-offcanvas" id="content" style="padding-top:20px">
+          <p>
+            1）	项目组团队数据共享（包括项目组使用的源数据链接，项目组进行数据分析后得到的结果，项目组公开发表的文章涉及到的可共享的数据的链接）；
+			2）	站外数据库（商业化数据库）链接；
+			3）	常用分析工具链接
+          </p>
+        </div>
+        
+{% endblock %}

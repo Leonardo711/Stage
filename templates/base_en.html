@@ -1,0 +1,132 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel='icon' href='/static/pics/logo.jpg' type='image/x-ico' />
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<!-- 		<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+		<link href="/static/custom_css/index.css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/static/js/index.js"></script>
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <div class='right-up'>           
+            {% if user.is_authenticated %}
+              <p style="font-size: 14px;display: inline;">{{ user }}</p>
+              <span>/</span>
+              <a href="/accounts/logout">{% trans "Exit" %}</a>
+            {% else %}
+            <a href="/accounts/login">sign in</a>
+            <span>/</span>
+            <a href="/accounts/signup">sign up</a>
+            {% endif %}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="language" id="chinese">中文</a>
+            <span>/</span>
+            <a href="" class="language" id="english">English</a>
+        </div>
+      	<div class="col-md-2 logo">
+          <img src="/static/pics/logo.jpg" height="130">
+        </div>
+        <div class="col-md-10">
+        	<p class="chn-title"><b>国家重点研发计划——重要热带病传播相关的入侵媒介及其病原体的生物学特性研究</b></p>
+          <div class="row">
+            <div class="col-md-9 eng-title">
+              <p><b>National Research and Development Plan: Research on Biological Characteristics of the Tropical Disease Related Invasion vectors and Pathogens</b><p>
+            </div>
+            <div class="col-md-3 search-box">
+              <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                  <input type="text" class="  search-query form-control" placeholder="serch" />
+                  <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button">
+                      <span class=" glyphicon glyphicon-search"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+	      <div class="blog-masthead">
+		      <div class="row">
+		      	<div class="col-md-10 col-md-offset-1">
+			        <nav class="blog-nav" >
+                <a class="blog-nav-item" href="/">Home</a>
+                <a class="blog-nav-item" href="/project">Project</a>
+                <a class="blog-nav-item" href="/team">Team</a>
+                <a class="blog-nav-item" href="/news">News</a>
+                <a class="blog-nav-item" href="/notice">Notice</a>
+                <a class="blog-nav-item" href="/progress" id="progress">Progress</a>
+                <a class="blog-nav-item" href="/article">Article</a>
+                <a class="blog-nav-item" href="/academic">Academic</a>
+                <a class="blog-nav-item" href="/tools">Tools</a>
+                <a class="blog-nav-item" href="/analysis">Analysis</a>
+			        </nav>
+			    	</div>
+			    </div>
+		    </div>
+      </div>
+    </div>
+
+    <div class="page">
+      {% block content %}
+      {% endblock %}
+    </div>
+
+    <footer class="footer">
+      <hr>
+      <div class="footer-center">        
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="col-sm-7 project-introduction">
+              <p><b>Related Links</b></p>
+              <p><a href="http://zssom.sysu.edu.cn/">Sun Yat-sen University, School of Medicine</a></p>
+              <p><a href="http://www.ipd.org.cn/">Chinese Center for Disease Control and Prevention</a></p>
+              <p><a href="http://life.fudan.edu.cn/ ">Fudan University, School of Life Sciences</a></p>
+              <p><a href="http://www.ipd.org.cn/">Southern Medical University, School of Public Health and Tropical Medicine</a></p>
+            </div>
+            <div class="col-sm-5">
+              <p><b>Resource Sharing</b></p>
+              <p><a href="http://www.chinaias.cn/wjPart/index.aspx ">China Alien Invasive Species Database</a></p>
+              <p><a href="http://www.iucngisd.org/gisd/">GISDGlobal Invasive Species Database</a></p>
+              <p><a href="https://www.vectorbase.org/">Human Pathogens Invertebrates Vector Bioinformatics Resources Database (VectorBase)</a></p>
+            </div>
+          </div>
+          <div class="col-sm-3 col-sm-offset-1">
+            <div class=" QRcode-reminder">
+              <p>Please Scan QR code:</p>
+            </div>
+            <!-- <div class="col-sm-4"> -->
+              <img src="/static/pics/QRcode.png" height="105">
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="about_us">
+          <p>Copyright &copy; 2016 <a href="http://www.sysu.edu.cn/2012/cn/index.htm">Sun Yat-sen University</a> &nbsp&nbsp&nbsp
+          contact us:<a href="mailto:wuzhd@mail2.sysu.edu.cn">wuzhd@mail2.sysu.edu.cn</a></p>
+          <p>Address: North Campus, Sun Yat-sen University, No.74, Zhongshan 2nd Road, Guangzhou(Postcode: 510080)</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

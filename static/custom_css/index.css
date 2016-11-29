@@ -383,3 +383,15 @@ html, body {
   text-align: right;
 }*/
 /*--------------------------carousel ENDS--------------------------*/
+
+.center {
+  margin: 0 auto;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.w-240 {
+  width: 240px;
+}

@@ -1,0 +1,11 @@
+{% extends "base_en.html" %}
+{% block title %} News Detail {% endblock %}
+{% block content %}
+<div class="container" id="content">
+    <p>{{news.title}}</p>
+    <p>page view: {{news.views}}</p>
+    <p>{{news.author.username}}</p>
+    <p>{{news.content|safe}}</p>
+</div>
+{% endblock %}
+
