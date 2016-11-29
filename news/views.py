@@ -36,12 +36,13 @@ class newsAdd(PermissionRequiredMixin, CreateView):
         return self.render_to_response(self.get_context_data(form=form))
 
     def post(self, request, *args, **kwargs):
+        print request.POST
         form_class = self.get_form_class()
         form = self.get_form(form_class)
         if form.is_valid():
             news = form.save(commit=False)
             news.author = request.user
             news.save()
-        return HttpResponseRedirect("/news")
+        return HttpResponseRedirect("/news/")
 
 
