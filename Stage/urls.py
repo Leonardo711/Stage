@@ -36,4 +36,5 @@ urlpatterns = [
     url(r'^academic/', include('academic.urls')),
     url(r'^tools/', include("tools.urls")),
     url(r'^progress/', include("progress.urls")),
+    url(r'^i18n/', include('django.conf.urls.i18n')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

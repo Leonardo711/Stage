@@ -62,7 +62,7 @@ class signup(TemplateView):
             try:
                 user = User.objects.create_user(username = username, password=password, email=email)
             except:
-                message="用户名已存在"
+                message=_(u"account exists")
                 return self.render_to_response(self.get_context_data(form=form, user_message=message))
             user.is_active = False
             user.save()

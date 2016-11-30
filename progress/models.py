@@ -6,6 +6,9 @@ from django.utils.translation import ugettext as _
 
 # Create your models here.
 class Progress(models.Model):
-    project = models.ForeignKey(Project, verbose_name=_("progess"))
+    project = models.ForeignKey(Project, verbose_name=_("project"))
     content = models.TextField(_('progress content'))
 
+    class Meta:
+        verbose_name = _("progress")
+        verbose_name_plural = _("progress")

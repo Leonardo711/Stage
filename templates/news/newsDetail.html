@@ -2,7 +2,7 @@
 {% block title %} 新闻详情 {% endblock %}
 {% block content %}
 <div class="container" id="content">
-    <p>{{news.title}}</p>
+    <h3>{{news.title}}</h3>
     <p>浏览量：{{news.views}}</p>
     <p>{{news.author.username}}</p>
     <p>{{news.content|safe}}</p>

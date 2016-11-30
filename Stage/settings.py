@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 """
 Django settings for Stage project.
 
@@ -40,13 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ckeditor',
     'ckeditor_uploader',
-    'news',
-    'team',
-    'notice',
-    'article',
-    'project',
-    'progress',
-    'academic',
+    'news.apps.NewsConfig',
+    'team.apps.TeamConfig',
+    'notice.apps.NoticeConfig',
+    'article.apps.ArticleConfig',
+    'project.apps.ProjectConfig',
+    'progress.apps.ProgressConfig',
+    'academic.apps.AcademicConfig',
     'tools',
 ]
 CKEDITOR_JQUERY_URL = '//cdn.bootcss.com/jquery/1.11.3/jquery.min.js'
@@ -55,14 +56,13 @@ CKEDITOR_UPLOAD_PATH = "uploads/"
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
-    #'django.core.context_processors.i18n',
 ]
 
 ROOT_URLCONF = 'Stage.urls'
@@ -77,6 +77,7 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'django.template.context_processors.i18n',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -157,3 +158,11 @@ EMAIL_PORT = 25
 EMAIL_USE_TLS=True
 
 DOMAIN = '127.0.0.1:8000'
+
+LANGUAGES=(
+    ('en', u'English'),
+    ('zh-hans', u'简体中文'),
+)
+LOCALE_PATHS =(
+    os.path.join(BASE_DIR,'locale'),
+)

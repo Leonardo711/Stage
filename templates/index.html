@@ -1,10 +1,11 @@
 {% extends "base.html" %}
-{% block title %} 首页 {% endblock %}
+{% load i18n %}
+{% block title %} {% trans "Home" %} {% endblock %}
 {% block content %}
 <div class="row">
 
     <div class="col-sm-7 project-introduction">
-      <p class="project-introduction-title">项目简介</p>
+      <p class="project-introduction-title">{% trans "Project Introduction" %}</p>
       <p class="project-introduction-paragraph">
       	“保障人类健康”是我国生物安全优先考虑的战略重点之一。医学媒介生物及其相关病原体的入侵可引起如登革热、寨卡病毒病、疟疾、锥虫病、血吸虫病、广州管圆线虫病等重要热带病的流行、疫情暴发与扩散，甚至成为重大公共卫生安全事件，对人类健康和社会稳定构成极大威胁。
       </p>
@@ -38,10 +39,10 @@
         <div class="col-sm-10 col-sm-offset-1">
           <div class="panel panel-success">
             <div class="more-news">
-              <a href="/news">More >></a>
+              <a href="/news">{% trans "More" %} >></a>
             </div>
             <div class="panel-heading">
-              <h3 class="panel-title">新闻动态</h3>
+              <h3 class="panel-title">{% trans "新闻动态" %}</h3>
             </div>
             <div class="panel-body">
             <ul class="news-ul">
@@ -60,10 +61,10 @@
 
           <div class="panel panel-danger">
             <div class="more-notifications">
-              <a href="/notice">More >></a>
+              <a href="/notice">{% trans "More" %}>></a>
             </div>
             <div class="panel-heading">
-              <h3 class="panel-title">通知公告</h3>
+              <h3 class="panel-title">{% trans "通知公告" %}</h3>
             </div>
             <div class="panel-body">
               <ul class="notification-ul">

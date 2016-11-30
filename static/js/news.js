@@ -37,4 +37,9 @@ jQuery(document).ajaxSend(function(event, xhr, settings) {
 });
 /*===============================django ajax end===*/
 
-CKEDITOR.replace('news-content')
+editor = CKEDITOR.replace('content')
+function submit(){
+    editor.updateElement();
+}
+
+$("#add-news").click(submit())
