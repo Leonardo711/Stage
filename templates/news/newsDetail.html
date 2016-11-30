@@ -2,10 +2,9 @@
 {% block title %} 新闻详情 {% endblock %}
 {% block content %}
 <div class="container" id="content">
-    <h3>{{news.title}}</h3>
-    <p>浏览量：{{news.views}}</p>
-    <p>{{news.author.username}}</p>
-    <p>{{news.content|safe}}</p>
+    <p class="project-introduction-title text-center">{{news.title}}</p>
+    <p class="text-right pd-rg-20">作者:{{news.author.username}}&nbsp;&nbsp;&nbsp;&nbsp;浏览量：{{news.views}}</p>
+    <p class="project-introduction-paragraph text-left">{{news.content|safe}}</p>
 </div>
 {% endblock %}
 

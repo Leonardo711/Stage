@@ -2,10 +2,9 @@
 {% block title %} 通知详情 {% endblock %}
 {% block content %}
 <div class="container">
-    <p>{{notice.title}}</p>
-    <p>{{notice.author.username}}</p>
-    <p>浏览量：{{notice.views}}</p>
-    <p>{{notice.content}}</p>
+    <p class="project-introduction-title text-center">{{notice.title}}</p>
+    <p class="text-right pd-rg-20">作者:{{notice.author.username}}&nbsp;&nbsp;&nbsp;&nbsp;浏览量：{{notice.views}}</p>
+    <p class="project-introduction-paragraph text-left">{{notice.content}}</p>
 </div>
 {% endblock %}
 
